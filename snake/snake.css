@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', "Courier New", Monospace;
+}
+.gameCanvas{
+    width: 500px;
+    height: 500px;
+    margin: 500px;
+    border: 1px solid #ffc400;
+    background-color: black;
+}
+.scoreBlock{
+    font-size: 25px;
+}

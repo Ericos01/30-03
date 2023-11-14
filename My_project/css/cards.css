@@ -1,0 +1,40 @@
+
+
+.cards{
+    padding: 100px 0;
+    background: #698677;
+
+}
+.content{
+    padding: 100px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: block;
+    background-color: black;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    height: 350px;
+}
+.card img{
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+.card h2{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.card p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

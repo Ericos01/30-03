@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Works</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/home_works.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <div class="logo">
+                        <img src="../img/logo.svg">
+                    </div>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/home_works.html">HOME WORDS</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/lessons.html">LESSONS</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/monster.html" target="_blank">SEND</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/cards.html">CARD</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+    <div class="gmail_block">
+        <div class="container">
+            <h3>Wellcome</h3>
+            <div class="inner_gmail_block">
+                <div class="form_gmail">
+                    <label for="gmail_input"></label>
+                    <input type="text" id="gmail_input" placeholder="your gmail">
+                    <button class="btn" id="gmail_button">Check gmail</button>
+                    <span class="checker" id="gmail_result"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mov_block">
+        <div class="container">
+            <h4>SNAKE PEANUTS</h4>
+                <p class="scoreBlock">Score: <b class="score">0</b> </p>
+                <canvas class="gameCanvas" width="400px" height="400px">
+                    </canvas>
+                </div>
+            </div>
+        </div>
+    <div class="move_block">
+    <div class="container">
+        <p class="hum">ANYA LOVE PEANUTS!</p>
+        <div class="move_Block" id="move_Block">
+            <div class="parent_block" id="parent_block">
+                <div class="child_block" id="child_block">
+                    <img src="../img/peanuts.png">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="stopwatch">
+        <div class="container">
+<!--            <h3>Timer </h3>-->
+            <div class="time">
+                <div class="time_block">
+                    <div class="intervalID" id="minutes">00</div>
+                    <div class="breakButton">:</div>
+                    <div class="intervalID" id="seconds">00</div>
+                    <div class="breakButton">:</div>
+                    <div class="intervalID" id="milliseconds">00</div>
+                </div>
+            </div>
+            <div class="time_buttons">
+                <button class="btn" id="startTimer">Start</button>
+                <button class="btn" id="stopTimer">Stop</button>
+                <button class="btn" id="resetTimer">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <a href="https://www.instagram.com/nurdinbuy/" target="_blank">
+                <div class="inner_footer">
+                    <h2>Made by ERKIN</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/home_works.js"></script>
+<script src="../js/modal.js"></script>
+</html>

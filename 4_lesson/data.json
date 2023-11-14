@@ -1,0 +1,12 @@
+{
+  "name": "Nurdin",
+  "age": 19,
+  "array": [
+    null,
+    true,
+    false
+  ],
+  "obj": {
+    "a": "12"
+  }
+}

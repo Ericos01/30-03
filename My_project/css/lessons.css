@@ -1,0 +1,241 @@
+
+/* PHONE CHECKER */
+
+.phone_block {
+    background-image: url("../img/anya-yor-loid-forger-s.webp");
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    /*
+    background: black;
+     */
+    padding: 100px 0;
+}
+
+.inner_phone_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /*
+    border: 1px solid var(--orange);
+     */
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.form_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_phone button {
+    width: 50%;
+    margin: 20px 0;
+}
+
+/* TAB SLIDER */
+
+.tab_slider {
+    background: #7faa97;
+    padding: 100px 0;
+}
+
+.tab_content_block {
+    width: 850px;
+    border: 1px solid var(--orange);
+    padding: 20px;
+    /*border-radius: 10px;*/
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
+.becky{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.damian{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.ewen{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.emile{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.george{
+    width: 120px;
+    margin-top: 10px;
+}
+.tab_content_block p {
+    color: white;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.tab_content_items {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /*row-gap: 5px;*/
+}
+
+.tab_content_item {
+    padding: 10px;
+    height: 70px;
+    color: white;
+    border: 1px solid var(--orange);
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.tab_content_item_active {
+    background: var(--orange);
+    color: black;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+.tab_contents_block {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/*------CARD SWITCHER------*/
+
+.card_switcher {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.card {
+    width: 550px;
+    height: 150px;
+    border: 1px solid var(--orange);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.card p {
+    color: var(--orange);
+    font-size: 20px;
+}
+
+.card span {
+    color: white;
+    font-size: 30px;
+}
+
+.inner_card_switcher {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*-------CONVERTER--------*/
+
+
+.converter {
+    background-image: url("../img/Countries_Map_Anime (1).webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px 0;
+/*
+    background-color: black;
+ */
+}
+
+.inner_converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.inner_converter > div {
+    display: flex;
+    flex-direction: column;
+}
+.dalc{
+    background-image: url("../countrues_flag/ostania_flag.webp");
+    background-repeat: no-repeat;
+    background-position: 98% 6%;
+    background-size: 50px;
+}
+
+.pento{
+    background-image: url("../countrues_flag/westalis_flag.webp");
+    background-repeat: no-repeat;
+    background-position: 98% 6%;
+    background-size: 50px;
+}
+.yen{
+    background-image: url("../countrues_flag/Flag_of_Japan.svg.webp");
+    background-repeat: no-repeat;
+    background-position: 98% 5%;
+    background-size: 48px;
+}
+.usd{
+    background-image: url("../countrues_flag/United_States.svg");
+    background-repeat: no-repeat;
+    background-position: 98% 10%;
+    background-size: 50px;
+}
+/*------WEATHER------*/
+
+.weather {
+    background-image: url("../img/wp6389162.webp");
+    background-position: top center;
+    background-size: 115%;
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+}
+
+.inner_weather > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.inner_weather {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+hr {
+    width: 100%;
+}
+.weather-icon{
+    width: 100px;
+    height: 100px;
+}
